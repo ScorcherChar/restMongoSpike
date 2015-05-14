@@ -1,0 +1,102 @@
+<offers>
+    <offer>
+        <company><![CDATA[Pur Etc.]]></company>
+        <!-- NOM DE LA SOCIETE - TEXTE -->
+        <contract_start_date><![CDATA[2014-08-30]]></contract_start_date>
+        <!-- DATE D'EMBAUCHE - DATE -->
+        <country><![CDATA[France]]></country>
+        <!-- PAYS - TEXTE -->
+        <description>
+            <![CDATA[A tout moment de la journÃ©e, <strong>PUR etc.</strong> propose des <strong>plats et boissons cuisinÃ©s comme Ã  la maison autour de produits locaux</strong> approvisionnÃ©s en direct des producteurs :Â Â <br><br>Hachis Parmentier, gratins, plats traditionnels, soupe, tajine, salade de cruditÃ©s, muffin salÃ©, quiches, pÃ¢tisseries, cafÃ©tÃ©ria, jus frais pressÃ©, etc...<br><br><strong>La carte Ã©volue chaque semaine en fonction de lâ€™offre des producteurs.</strong><br><br>Presque toujours Ã  base de fruits et lÃ©gumes de saison,Â <strong>PUR etc. </strong>propose <strong>une cuisine qui est Ã  la fois simple, saine et gourmande.<br><br></strong><br><br><strong><br><br>La devise Â« cueilli aux environs, cuisinÃ© comme Ã  la maison Â»</strong>, repose sur une volontÃ© de <strong>crÃ©er une nouvelle gÃ©nÃ©ration de restauration rapide Ã©quilibrÃ©e et Ã©co responsable</strong>, permettant aux clients de consommer des produits de qualitÃ© qui respectent lâ€™environnement, Ã  des tarifs abordables.<br><br><strong>Une offre qui rÃ©pond aux nouvelles attentes des consommateurs</strong><br><br>Bien que les restaurants PUR etc. ne soient pas vÃ©gÃ©tariens, lâ€™offre comporte plusieurs alternatives vÃ©gÃ©tariennes ou vÃ©gÃ©taliennes, ainsi que des produits adaptÃ©s aux intolÃ©rances alimentaires (gluten et lactose).<br><br><strong><br><br>Lâ€™amÃ©nagement cosy des Ã©tablissements, dans un esprit de Â« laboratoire de ferme Â» modernisÃ©, permet aux clients de dÃ©jeuner, goÃ»ter, dÃ®ner ou mÃªme bruncher dans un lieu Ã  fort caractÃ¨re, accueillant et chaleureux.<br><br></strong><br><br>Le dÃ©veloppement de la marque PUR etc. <strong>sâ€˜appuie sur les spÃ©cificitÃ©s gÃ©ographiques, agricoles, et culinaires des rÃ©gions dâ€™implantation de ses restaurants</strong> en Ã©tablissantÂ <strong>un rÃ©seau local de producteurs, une cuisine, et un menu propres Ã  chaque lieu</strong>, tout en sâ€™appuyant sur un ADN commun (qualitÃ©, savoir-faire, Ã©thique, identitÃ© visuelleâ€¦).<br><br>Ce modÃ¨le est un atout et un rÃ©el Ã©lÃ©ment diffÃ©renciateur.<br><br>Fort de son implantation strasbourgeoise, PUR etc. lance maintenant le dÃ©veloppement de son rÃ©seau en France via des partenaires en licence de marque. Les premiÃ¨res implantations et prochaines ouvertures sont prÃ©vues en Ile-de-France.<br><br><strong>Plus dâ€™infos sur  [...] </strong><br><br>Le partenaire PUR etc. est impliquÃ© dans le dÃ©veloppement de son entreprise. Il possÃ¨de une trÃ¨s grande motivation et un sens dÃ©veloppÃ© du service client et de lâ€™accueil.<br>Il partage les valeurs de lâ€™enseigne Ã  savoir lâ€™Exigence, lâ€™Engagement et lâ€™Ouverture dâ€™esprit et souhaite prendre part Ã  lâ€™aventure de PUR etc.<br>Il a une forte appÃ©tence pour le secteur de la restauration et plus particuliÃ¨rement pour les produits PUR etc. (cuisine de saison et locavore, plats Ã©quilibrÃ©s et gourmands, dÃ©marche Ã©co-responsable).<br><br>Une expÃ©rience dans le milieu de la restauration nâ€™est pas indispensable puisque les partenaires sont formÃ©s en interne Ã  leur nouveau mÃ©tier selon le Mix-marketing de lâ€™enseigne.<br><br>Le savoir-Ãªtre du Partenaire :<br><br>Autonome<br>Dynamique<br>Rigoureux<br>PersÃ©vÃ©rant<br><br>Le savoir-faire du Partenaire :<br><br>Management dâ€™Ã©quipe<br>Sens du commerce<br>Gestion dâ€™un centre de profits]]></description>
+        <!-- DESCRIPTION - TEXTE OU HTML -->
+        <email><![CDATA[offres-pur-etc@qapa.fr]]></email>
+        <!-- EMAIL DE CONTACT - TEXTE -->
+        <first_name><![CDATA[PUR ETC.]]></first_name>
+        <!-- PRENOM DU RECRUTEUR - TEXTE -->
+        <last_name></last_name>
+        <!-- NOM DU RECRUTEUR - TEXTE -->
+        <lat_center>46.2276400000</lat_center>
+        <!-- LATITUDE CENTRE - FLOAT -->
+        <lat_ne>51.0889600000</lat_ne>
+        <!-- LATITUDE NORD EST - FLOAT -->
+        <lat_sw>41.3423300000</lat_sw>
+        <!-- LATITUDE SUD OUEST - FLOAT -->
+        <lng_center>2.2137500000</lng_center>
+        <!-- LONGITUDE CENTRE - FLOAT -->
+        <lng_ne>9.5599570000</lng_ne>
+        <!-- LONGITUDE NORD EST - FLOAT -->
+        <lng_sw>-5.1412280000</lng_sw>
+        <!-- LONGITUDE SUD OUEST - FLOAT -->
+        <offer_administrative_area_level_1></offer_administrative_area_level_1>
+        <!-- REGION - TEXTE -->
+        <offer_id>9953762</offer_id>
+        <!-- IDENTIFIANT - ENTIER -->
+        <offer_locality></offer_locality>
+        <!-- VILLE - TEXTE -->
+        <offer_postal_code></offer_postal_code>
+        <!-- CODE POSTAL - TEXTE -->
+        <phone></phone>
+        <!-- TELEPHONE RECRUTEUR - TEXTE -->
+        <posts>1</posts>
+        <!-- NOMBRE DE POSTES - TEXTE -->
+        <publication_start_date><![CDATA[2014-09-24]]></publication_start_date>
+        <!-- DATE DE PUBLICATION - DATE -->
+        <recruiter_id>4567265</recruiter_id>
+        <!-- IDENTIFIANT DU RECRUTEUR - ENTIER -->
+        <ref_company_sizes_id></ref_company_sizes_id>
+        <!-- TAILLE D'ENTREPRISE - ID DE LA TABLE DE REFERENCE -->
+        <ref_contract_durations_id></ref_contract_durations_id>
+        <!-- DUREE DU CONTRAT - ID DE LA TABLE DE REFERENCE -->
+        <ref_position_levels_id></ref_position_levels_id>
+        <!-- NIVEAU DE POSTE - ID DE LA TABLE DE REFERENCE -->
+        <ref_salary_types_id>2</ref_salary_types_id>
+        <!-- TYPE DE SALAIRE - ID DE LA TABLE DE REFERENCE -->
+        <ref_sectors_id>18</ref_sectors_id>
+        <!-- SECTEUR ACTIVITE - ID DE LA TABLE DE REFERENCE -->
+        <ref_studies_levels_id></ref_studies_levels_id>
+        <!-- NIVEAU ETUDES - ID DE LA TABLE DE REFERENCE -->
+        <ref_trades_id>10952</ref_trades_id>
+        <!-- METIER - ID DE LA TABLE DE REFERENCE -->
+        <salary_range_begin>0.00</salary_range_begin>
+        <!-- SALAIRE MIN  - FLOAT -->
+        <salary_range_end>0.00</salary_range_end>
+        <!-- SALAIRE MAX  - FLOAT -->
+        <seniority>2</seniority>
+        <!-- EXPERIENCE DEMANDEE - ID DE LA TABLE DE REFERENCE -->
+        <timetable></timetable>
+        <!-- EMPLOI DU TEMPS - BITFIELD -->
+        <url></url>
+        <!-- URL POUR POSTULER - TEXTE -->
+        <recruiter_administrative_area_level_1></recruiter_administrative_area_level_1>
+        <!-- REGION DU RECRUTEUR - TEXTE -->
+        <recruiter_locality></recruiter_locality>
+        <!-- VILLE DU RECRUTEUR - TEXTE -->
+        <recruiter_postal_code></recruiter_postal_code>
+        <!-- CODE POSTAL DU RECRUTEUR - TEXTE -->
+        <rome_v3><![CDATA[M1301]]></rome_v3>
+        <!-- CODE ROME - TEXTE -->
+        <contract_types><!-- TYPES DE CONTRATS POSSIBLES -->
+            <ref_contract_types_id>1</ref_contract_types_id>
+            <!-- TYPE DE CONTRAT - ID DE LA TABLE DE REFERENCE -->
+            <ref_contract_types_id>17</ref_contract_types_id>
+        </contract_types>
+        <benefits><!-- AVANTAGES -->
+            <ref_benefits_id></ref_benefits_id>
+            <!-- AVANTAGE - ID DE LA TABLE DE REFERENCE -->
+        </benefits>
+        <skills><!-- COMPETENCES -->
+            <ref_skills_id>64</ref_skills_id>
+            <!-- COMPETENCE - ID DE LA TABLE DE REFERENCE -->
+            <ref_skills_id>296</ref_skills_id>
+            <ref_skills_id>340</ref_skills_id>
+            <ref_skills_id>349</ref_skills_id>
+            <ref_skills_id>353</ref_skills_id>
+            <ref_skills_id>369</ref_skills_id>
+            <ref_skills_id>370</ref_skills_id>
+            <ref_skills_id>477</ref_skills_id>
+            <ref_skills_id>1493</ref_skills_id>
+            <ref_skills_id>1495</ref_skills_id>
+            <ref_skills_id>1777</ref_skills_id>
+        </skills>
+    </offer>
+</offers>
