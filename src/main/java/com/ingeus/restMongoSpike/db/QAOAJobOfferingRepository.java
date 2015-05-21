@@ -17,11 +17,9 @@
 package com.ingeus.restMongoSpike.db;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
-import org.springframework.stereotype.Service;
 
 import com.ingeus.restMongoSpike.jobs.QAPAJobOffering;
 
-@Service
 public interface QAOAJobOfferingRepository extends MongoRepository<QAPAJobOffering, String> {
 
 }

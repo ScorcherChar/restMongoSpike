@@ -9,7 +9,6 @@ import org.springframework.data.elasticsearch.core.ElasticsearchTemplate;
 
 import com.ingeus.restMongoSpike.db.QAOAJobOfferingRepository;
 import com.ingeus.restMongoSpike.elasticsearch.JobOfferingRepository;
-import com.ingeus.restMongoSpike.elasticsearch.JobOfferingRepositoryCustom;
 import com.ingeus.restMongoSpike.jobs.JobOffering;
 import com.ingeus.restMongoSpike.jobs.QAPAJobListing;
 
@@ -29,21 +28,25 @@ public class RestMongoSpikeApplication implements CommandLineRunner {
 	private JobOfferingRepository jobOfferingRepository;
 
 	@Autowired
-	private JobOfferingRepositoryCustom jobOfferingRepositoryCustom;
-
-	@Autowired
 	private ElasticsearchTemplate elasticsearchTemplate;
 
 	@Override
 	public void run(String... strings) throws Exception {
-		qaoaJobOfferingRepository.deleteAll();
-		String xml = loadFromClassPath("20150505_QAPA_AVAILABLE_OFFERS.xml");
-		QAPAJobListing listing = QAPAJobListing.fromXML(xml);
-		qaoaJobOfferingRepository.save(listing.getJobOfferings());
-		List<JobOffering> jobOfferingList = listing.getJobOfferings().stream().map(j -> j.toJobObject()).collect(Collectors.toList());
-		jobOfferingRepository.save(jobOfferingList);
+		Boolean refreshData = System.getProperty("refreshData") != null && System.getProperty("refreshData").equalsIgnoreCase("true");
 
-		elasticsearchTemplate.createIndex(JobOffering.class);
+		if(refreshData) {
+			jobOfferingRepository.deleteAll();
+			elasticsearchTemplate.deleteIndex(JobOffering.class);
+			elasticsearchTemplate.createIndex(JobOffering.class);
+			elasticsearchTemplate.putMapping(JobOffering.class);
+			qaoaJobOfferingRepository.deleteAll();
+			jobOfferingRepository.deleteAll();
+			String xml = loadFromClassPath("20150505_QAPA_AVAILABLE_OFFERS.xml");
+			QAPAJobListing listing = QAPAJobListing.fromXML(xml);
+			qaoaJobOfferingRepository.save(listing.getJobOfferings());
+			List<JobOffering> jobOfferingList = listing.getJobOfferings().stream().map(j -> j.toJobObject()).collect(Collectors.toList());
+			jobOfferingRepository.save(jobOfferingList);
+		}
 
 	}
 
